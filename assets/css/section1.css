@@ -72,3 +72,46 @@ section{
     font-size: 2em;
     margin: 60px;
 }
+
+@media screen and (max-width: 900px) {
+    
+    section{
+        padding: 10px;
+    }
+    
+    .main-title{
+        font-size: 1.5em;
+    }
+
+    .content{
+        flex-direction: column;
+        width: 400px;
+        gap: 24px;
+    }
+
+    .content .image{
+        width: 300px;
+    }
+
+    .content .text-box{
+        width: 300px;
+        height: auto;
+        transform: translate(0px,0px);
+        margin-left: 0px;
+    }
+
+    .content .text-box h3 {
+        font-size: .9em;
+    }
+
+    .media-icons {
+        margin-top: 50px;
+        display: flex;
+    }
+    
+    .media-icons a{
+        color: #fff;
+        font-size: 1.5em;
+        margin: 16px;
+    }
+}

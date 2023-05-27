@@ -13,3 +13,21 @@
     width: 700px;
     margin-left: 50px ;
 }
+
+@media screen and (max-width:900px) {
+    
+.section-title {
+    font-size: 1.5em;
+    margin-bottom: 30px ;
+}
+
+.info-title{
+    font-size: 1em;
+    margin-bottom: 10px;
+}
+
+.info {
+    width: 300px;
+    margin-left: 0px ;
+}
+}
